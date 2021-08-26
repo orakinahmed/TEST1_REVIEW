@@ -1,0 +1,36 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    border: 2px solid black;
+    box-shadow: 2px 3px black;
+    padding: 50px;
+}
+
+ul, li{
+    padding: 5px;
+    background: linear-gradient(green, blue);
+    box-shadow: 2px 3px black;
+    border: 1px solid gray;
+}
+
+ul:hover, li:hover {
+    background: black;
+    color: white;
+}
+
+.user_name {
+    color: red;
+}
